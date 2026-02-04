@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  /* Calm & Safe Theme */
+  --color-primary: #84A98C;
+  /* Sage Green */
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #D0E1F9;
+  /* Sky Blue */
+  --color-secondary-foreground: #2D3748;
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+  --color-accent: #f4f4f5;
+  --color-accent-foreground: #2D3748;
+  --color-background: #FDFCF8;
+  /* Off-white/Cream */
+  --color-foreground: #2D3748;
+  /* Charcoal */
+  --color-text-main: #2D3748;
+
+  --color-border: #e4e4e7;
+  --color-input: #e4e4e7;
+  --color-ring: #84A98C;
+
+  --color-red-50: #FEF2F2;
+  /* Light Red for reports */
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-destructive: var(--color-destructive);
+  --color-destructive-foreground: var(--color-destructive-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-text-main: var(--color-text-main);
+
+  --color-border: var(--color-border);
+  --color-input: var(--color-input);
+  --color-ring: var(--color-ring);
+
+  --radius-2xl: var(--radius-2xl);
+  --radius-3xl: var(--radius-3xl);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+}
+
+/* Custom Utils if needed */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}

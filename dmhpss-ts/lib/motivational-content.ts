@@ -1,0 +1,22 @@
+export const motivationalTips = [
+    { text: "Believe you can and you're halfway there.", author: "Theodore Roosevelt" },
+    { text: "Act as if what you do makes a difference. It does.", author: "William James" },
+    { text: "Success is not final, failure is not fatal: it is the courage to continue that counts.", author: "Winston Churchill" },
+    { text: "Never bend your head. Always hold it high. Look the world straight in the eye.", author: "Helen Keller" },
+    { text: "What you get by achieving your goals is not as important as what you become by achieving your goals.", author: "Zig Ziglar" },
+    { text: "You are never too old to set another goal or to dream a new dream.", author: "C.S. Lewis" },
+    { text: "Your time is limited, so don't waste it living someone else's life.", author: "Steve Jobs" },
+    { text: "The only limit to our realization of tomorrow will be our doubts of today.", author: "Franklin D. Roosevelt" },
+    { text: "It always seems impossible until it's done.", author: "Nelson Mandela" },
+    { text: "Keep your face always toward the sunshine—and shadows will fall behind you.", author: "Walt Whitman" },
+    { text: "The future belongs to those who believe in the beauty of their dreams.", author: "Eleanor Roosevelt" },
+    { text: "Do something today that your future self will thank you for.", author: "Unknown" },
+    { text: "Small steps in the right direction can turn out to be the biggest step of your life.", author: "Unknown" },
+    { text: "Don't watch the clock; do what it does. Keep going.", author: "Sam Levenson" },
+    { text: "Happiness is not something ready made. It comes from your own actions.", author: "Dalai Lama" },
+    { text: "The bad news is time flies. The good news is you're the pilot.", author: "Michael Altshuler" },
+    { text: "You don’t have to be great to start, but you have to start to be great.", author: "Zig Ziglar" },
+    { text: "Every moment is a fresh beginning.", author: "T.S. Eliot" },
+    { text: "Start where you are. Use what you have. Do what you can.", author: "Arthur Ashe" },
+    { text: "Focus on the journey, not the destination. Joy is found not in finishing an activity but in doing it.", author: "Greg Anderson" }
+];
